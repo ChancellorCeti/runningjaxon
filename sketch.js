@@ -22,7 +22,7 @@ function setup(){
   boy.addAnimation("boy_running",running);
   boy.scale=.05;
   //sprites for boundaries
-  boundary1 = createSprite(30,200,5,400);
+  boundary1 = createSprite(70,200,5,400);
   boundary2 = createSprite(400,200,5,400);
   boundary1.visible=false;
   boundary2.visible=false;
